@@ -3,9 +3,9 @@ email: suda1527403057@163.com
 author: BOSON
 url: https://bosoncode.github.io/
 ### baseurl修改为项目名，如果项目是'***.github.io'，则设置为空''
-baseurl:''
+baseurl: "" 
 resume_site: 个人简历网站
-github:https://github.com/BOSONCODE
+github: "https://github.com/BOSONCODE"
 github_username: BOSONCODE 
 FB:
   comments :
