@@ -17,12 +17,3 @@ FB:
 permalink:    none
 excerpt_separator: ""
 highlighter: rouge
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    disable: true           # turn off rouge highlighter
