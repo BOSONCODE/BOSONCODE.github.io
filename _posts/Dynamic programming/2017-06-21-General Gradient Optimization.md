@@ -6,7 +6,6 @@ categories: ACM-ICPC-Template
 tag: DP
 ---
 
-```c++
 题目链接： http://codeforces.com/contest/660/problem/F
 
 这篇博客讲的挺详细的： （下面说的都是借用链接博客中的一些 Notations）
@@ -45,6 +44,7 @@ Core: dp优化就是去掉没用的点， 之前我所理解的斜率优化是�
 
 所以gradient最接近sum[r] 的 就是最大值的取值下标
 
+```c++
 #include <iostream>
 #include <string.h>
 #include <algorithm>
