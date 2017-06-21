@@ -6,7 +6,6 @@ categories: ACM-ICPC-Template
 tag: DP
 ---
 
-```c++
 pku 1160 Post Office 四边形不等式优化 经典DP
 
 邮局
@@ -53,6 +52,7 @@ k=K[n][m]是一个最优间断点，也即一个最优决策点，意思是 前 
 小结：k的四边形不等式区间限制，要根据具体k所对应于状态的含义，根据阶段计算的先后性，然后利用决策单调性来进行区间的限制，先是要满足含义上的表示，然后才是决策的单调性，单单满足决策单调性不一定是正确的
 
 代码如下：
+```c++
 #include<cstdio>
 #include<algorithm>
 using namespace std;
