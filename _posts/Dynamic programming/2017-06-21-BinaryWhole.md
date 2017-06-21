@@ -5,7 +5,9 @@ date:   2017-06-21 01:08:00 +0800
 categories: ACM-ICPC-Template
 tag: DP
 ---
-/*const int maxn = 100005;
+
+```c++
+const int maxn = 100005;
 const int maxm = 100005;
 const int INF = 1e9;
 struct query {
@@ -87,6 +89,6 @@ void test() {
 		for (int i = 1; i <= m; ++i)
 			printf("%d\n", ans[i]);
 	}
-}*/
+}
 
 ```
